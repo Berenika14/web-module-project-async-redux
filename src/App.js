@@ -5,9 +5,7 @@ import Coffee from "./components/Coffee";
 function App() {
   return (
     <div className="App">
-      <h4>
-        Redux happens 🤯 <br /> Coffee helps ☕️
-      </h4>
+      <h4>Warning: Cuteness overload</h4>
       <Coffee />
     </div>
   );

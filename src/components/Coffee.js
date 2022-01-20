@@ -24,10 +24,10 @@ const Coffee = ({ picture, isFetching, error, dispatch }) => {
 
   return (
     <div>
-      <h2> Happy Snapshots 😍 </h2>
+      <h2> 😍 </h2>
       <img src={picture} />
       <div className="getCoffee">
-        <button onClick={handleClick}>Show New Picture</button>
+        <button onClick={handleClick}>Show New Dog</button>
         <button onClick={handleError}>Trigger an Error</button>
       </div>
     </div>
