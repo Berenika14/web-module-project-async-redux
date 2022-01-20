@@ -25,10 +25,21 @@ const Coffee = ({ picture, isFetching, error, dispatch }) => {
   return (
     <div>
       <h2> 😍 </h2>
-      <img src={picture} />
-      <div className="getCoffee">
-        <button onClick={handleClick}>Show New Dog</button>
-        <button onClick={handleError}>Trigger an Error</button>
+      <img style={{ borderRadius: "10px" }} src={picture} />
+
+      <div style={{ marginTop: "10px" }} className="getCoffee">
+        <button
+          style={{ backgroundColor: "lightblue", borderRadius: "4px" }}
+          onClick={handleClick}
+        >
+          Show New Dog
+        </button>
+        <button
+          style={{ backgroundColor: "lightblue", borderRadius: "4px" }}
+          onClick={handleError}
+        >
+          Trigger an Error
+        </button>
       </div>
     </div>
   );
