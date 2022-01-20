@@ -5,7 +5,9 @@ import Coffee from "./components/Coffee";
 function App() {
   return (
     <div className="App">
-      <h2 style={{ color: "#2FA9C4" }}>Warning: Cuteness overload</h2>
+      <h2 style={{ color: "#2FA9C4", marginTop: "2%", marginBottom: "3%" }}>
+        Warning: Cuteness overload
+      </h2>
 
       <Coffee />
     </div>
